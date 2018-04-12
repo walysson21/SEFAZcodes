@@ -13,30 +13,18 @@ public class Main {
         Imagem imgJ = imgA.xor(imgB);
         Imagem imgK = imgB.convolucao(7);
         
-//        imgA.mostrar("Imagem A");
-//        imgB.mostrar("Imagem B");
-//        imgC.mostrar("Imagem C");
-//        imgD.mostrar("Imagem D");
-//        imgE.mostrar("Imagem E");
-//        imgF.mostrar("Imagem F");
-//        imgG.mostrar("Imagem G");
-//        imgH.mostrar("Imagem H");
-//        imgI.mostrar("Imagem I");
-//        imgJ.mostrar("Imagem J");
-        imgK.mostrar("Imagem K");
-    	
-//    	int[] a = new int[65025];
-//    	
-//    	
-//    	for (int i = 0; i < 255; i++) {
-//    		for (int j = 0; j < 255; j++) {
-//    			int pos = j + i*255;
-//    			a[pos] = i;
-//    		}
-//		}
-//    	
-//    	Imagem img = new Imagem(a, 255, 255);
-//        img.mostrar("Imagem A");
-    }
+        imgA.mostrar("A");
+        imgB.mostrar("B");
+        imgC.mostrar("SOMA");
+        imgD.mostrar("SUBTRAÇÃO");
+        imgE.mostrar("MULTIPLICAÇÃO");
+        imgF.mostrar("IMG_A/IMG_b");
+        imgG.mostrar("IMG_B/IMG_A");
+        imgH.mostrar("MEDIA");
+        imgI.mostrar("NOT B");
+        imgJ.mostrar("XOR");
+        imgK.mostrar("CONVOLUÇÃO B");
+    
+	}
 
 }

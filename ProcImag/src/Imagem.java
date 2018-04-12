@@ -364,9 +364,9 @@ public final class Imagem {
     }
     
     public Imagem xor(Imagem imagem) {
-    	Imagem im1 = this.multiplicar( imagem.not() );
-    	Imagem im2 = imagem.multiplicar( this.not() );
-    	return im1.somar(im2);
+    	Imagem im1 = this.and( imagem.not() );
+    	Imagem im2 = imagem.and( this.not() );
+    	return im1.or(im2);
     }
     
     public Imagem convolucao(int convDim) {
