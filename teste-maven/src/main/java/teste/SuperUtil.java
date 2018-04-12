@@ -10,7 +10,6 @@ public class SuperUtil {
      */
     public static String escapeHTML(String html) {
     	System.out.println("Uma mudança!");
-        return StringEscapeUtils.escapeHtml4(html);
+        return StringEscapeUtils.escapeHtml4(html); 
     }
-
 }
